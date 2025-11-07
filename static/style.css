@@ -1,0 +1,147 @@
+body {
+   font-family: 'Courier New', monospace;
+   background-color: Bisque;
+   color: Indigo;
+   line-height: 1.6;
+   white-space: normal;
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+}
+
+.blog {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    height: 350px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+h2 {
+   text-align: center;
+   font-size: 50px;
+   font-weight: 300;
+   color: #ff7f50;
+}
+
+.card h1 {
+   text-align: center;
+   font-size: 50px;
+   font-weight: 300;
+   color: #ff7f50;
+}
+
+h1 {
+   text-align: center;
+   font-size: 40px;
+   font-weight: 300;
+   color: #ff7f50;
+}
+
+.card h3 {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.card .author,
+.card .likes {
+    margin-top: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: #ff7f50;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    max-width: 500px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #DDA0DD;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label, title {
+    color: black;
+}
+
+label, content {
+    color: black;
+}
+
+.buttons {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.btn {
+    color: DarkGreen;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post {
+    max-width: 800px;
+    margin: auto;
+    flex: 0 0 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.author {
+    color: aqua;
+    text-align: right;
+}
+
+.message {
+    color: black;
+}
